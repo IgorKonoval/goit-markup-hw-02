@@ -1,29 +1,33 @@
 :root {
-  --text-color: #2e2f42;
+  --header-color: #2e2f42;
+  --link-color: #4d5ae5;
+  --text-color: #434455;
+  --cloud-footer-color: #f4f4fd;
+  --hero-bkgrd-color: #ffffff;
 }
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  background-color: #ffffff;
-  color: var(--text-color);
+  background-color: var(--hero-bkgrd-color);
+  color: var(--header-color);
 }
 .list {
   list-style: none;
 }
 .logo {
-  color: #4d5ae5;
+  color: var(--link-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 0.86;
 }
 .logo-header {
-  color: var(--text-color);
+  color: var(--header-color);
 }
 
 .sate-nav .link:hover,
 .sate-nav .link:focus {
-  color: #4d5ae5;
+  color: var(--link-color);
 }
 .sate-nav {
   font-style: normal;
@@ -31,7 +35,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(--header-color);
 }
 .address a {
   font-style: normal;
@@ -39,10 +43,10 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 .hero {
-  background: var(--text-color);
+  background: var(--header-color);
 }
 .hero-title {
   font-style: normal;
@@ -51,7 +55,15 @@ body {
   line-height: 60px;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--hero-bkgrd-color);
+}
+.button {
+  color: var(--hero-bkgrd-color);
+  background-color: var(--link-color);
+}
+.button-portfolio {
+  color: var(--link-color);
+  background-color: var(--cloud-footer-color);
 }
 .section-title {
   font-style: normal;
@@ -61,7 +73,10 @@ body {
   text-align: center;
 }
 .cloud {
-  background: #f4f4fd;
+  background: var(--cloud-footer-color);
+}
+.cloud-list {
+  background-color: var(--hero-bkgrd-color);
 }
 .section-list {
   font-style: normal;
@@ -70,14 +85,14 @@ body {
   line-height: 24px;
 }
 .text {
-  color: #434455;
+  color: var(--text-color);
 }
 .team {
   text-align: center;
 }
 .footer {
-  background: var(--text-color);
+  background: var(--header-color);
 }
 .footer-text {
-  color: #f4f4fd;
+  color: var(--cloud-footer-color);
 }
