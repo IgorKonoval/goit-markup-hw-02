@@ -1,8 +1,11 @@
+:root {
+  --text-color: #2e2f42;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   background-color: #ffffff;
-  color: #2e2f42;
+  color: var(--text-color);
 }
 .list {
   list-style: none;
@@ -14,7 +17,67 @@ body {
   font-size: 18px;
   line-height: 0.86;
 }
+.logo-header {
+  color: var(--text-color);
+}
+
 .sate-nav .link:hover,
 .sate-nav .link:focus {
   color: #4d5ae5;
+}
+.sate-nav {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.address a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.hero {
+  background: var(--text-color);
+}
+.hero-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+}
+.cloud {
+  background: #f4f4fd;
+}
+.section-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.text {
+  color: #434455;
+}
+.team {
+  text-align: center;
+}
+.footer {
+  background: var(--text-color);
+}
+.footer-text {
+  color: #f4f4fd;
 }
