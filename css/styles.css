@@ -36,12 +36,13 @@ body {
   text-transform: uppercase;
   color: var(--cloud-footer-color);
 }
-.sate-nav .link:hover,
-.sate-nav .link:focus {
-  color: var(--link-color);
+.link {
+  text-decoration: none;
 }
+.sate-nav .link:hover,
+.sate-nav .link:focus,
 .sate-nav .link.current {
-  color: var(--link-color);
+  color: var(--hero-button-link-color);
 }
 .sate-nav {
   font-weight: 500;
