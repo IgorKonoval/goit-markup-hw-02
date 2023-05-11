@@ -5,9 +5,11 @@
   --cloud-footer-color: #f4f4fd;
   --hero-bkgrd-color: #ffffff;
   --hero-button-link-color: #404bbf;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-font);
   font-size: 16px;
   background-color: var(--hero-bkgrd-color);
   color: var(--text-color);
@@ -16,7 +18,7 @@ body {
   list-style: none;
 }
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -37,8 +39,7 @@ body {
   text-decoration: none;
 }
 .sate-nav .link:hover,
-.sate-nav .link:focus,
-.sate-nav .link.current {
+.sate-nav .link:focus {
   color: var(--hero-button-link-color);
 }
 .sate-nav {
@@ -48,17 +49,20 @@ body {
   letter-spacing: 0.02em;
   color: var(--header-color);
 }
-.address a {
+.address {
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   color: var(--text-color);
 }
 .address .link:hover,
 .address .link:focus {
   color: var(--hero-button-link-color);
+}
+.address-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 .hero {
   background: var(--header-color);
@@ -73,7 +77,7 @@ body {
   color: var(--hero-bkgrd-color);
 }
 .button {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -87,7 +91,7 @@ body {
   background-color: var(--hero-button-link-color);
 }
 .button-portfolio {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -119,7 +123,7 @@ body {
 .section-list {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--header-color);
 }
