@@ -16,24 +16,18 @@ body {
   list-style: none;
 }
 .logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--link-color);
 }
 .logo-header {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--header-color);
 }
 .logo-footer {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--cloud-footer-color);
 }
 .link {
@@ -76,7 +70,6 @@ body {
   color: var(--hero-bkgrd-color);
 }
 .button {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -101,6 +94,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--header-color);
 }
 .cloud {
   background: var(--cloud-footer-color);
@@ -113,6 +107,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  color: var(--header-color);
 }
 .text {
   color: var(--text-color);
