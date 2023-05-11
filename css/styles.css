@@ -30,6 +30,9 @@ body {
 .logo-footer {
   color: var(--cloud-footer-color);
 }
+.hide {
+  display: none;
+}
 .link {
   text-decoration: none;
 }
@@ -70,6 +73,7 @@ body {
   color: var(--hero-bkgrd-color);
 }
 .button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -83,9 +87,19 @@ body {
   background-color: var(--hero-button-link-color);
 }
 .button-portfolio {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--link-color);
   background-color: var(--cloud-footer-color);
   cursor: pointer;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--hero-bkgrd-color);
+  background-color: var(--hero-button-link-color);
 }
 .section-title {
   font-weight: 700;
