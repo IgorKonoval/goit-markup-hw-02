@@ -78,7 +78,6 @@ body {
 }
 
 .address-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -90,7 +89,6 @@ body {
 }
 
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   text-align: center;
@@ -133,7 +131,6 @@ body {
 }
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
